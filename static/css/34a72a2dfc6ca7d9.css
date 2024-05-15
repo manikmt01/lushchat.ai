@@ -435,10 +435,10 @@
   text-align: center;
 }
 .featuresBody .featuresItem {
-  grid-column-gap: 2em;
+  grid-column-gap: 3em;
   grid-row-gap: 4.8em;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-content: space-between;
   justify-content: stretch;
   align-items: center;
