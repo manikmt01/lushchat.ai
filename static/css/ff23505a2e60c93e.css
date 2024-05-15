@@ -1231,6 +1231,10 @@ body {
 .to-heroTo {
   --tw-gradient-to: hsla(97, 91%, 71%, 0.75) var(--tw-gradient-to-position);
 }
+.bg-dark {
+  background-color: #000;
+  z-index: 99;
+}
 .fill-current {
   fill: currentColor;
 }

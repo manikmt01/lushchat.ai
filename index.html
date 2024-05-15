@@ -148,8 +148,15 @@
 </head><!--$--><!--/$-->
 
 <body class="__className_587f35">
-  <div class="flex flex-col min-h-screen mx-auto">
-    <div class="w-full mx-auto py-4 min-h-[74px]">
+
+  <div class="videoWrapper">
+    <video preload="none" autoplay="" loop="" muted="" playsinline="" class=" w-full h-full object-cover"
+      poster="poster.jpeg" src="hero-video.mp4"></video>
+    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-heroFrom to-heroTo opacity-50"></div>
+  </div>
+  <div class="flex flex-col min-h-screen mx-auto z-50">
+
+    <div class="w-full mx-auto py-4 min-h-[74px] bg-dark">
       <div class="flex-1 max-w-7xl mx-auto px-4">
         <div class="flex h-10 justify-between items-center">
           <a class="text-2xl font-bold hover:text-rose-500" href="index.html">Lush Chat</a>
@@ -169,9 +176,8 @@
     <div class="flex-1 flex overflow-auto">
       <div class="w-full">
         <div class="relative h-75">
-          <video preload="none" autoplay="" loop="" muted="" playsinline=""
-            class="absolute top-0 left-0 w-full h-full object-cover" poster="poster.jpeg" src="hero-video.mp4"></video>
-          <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-heroFrom to-heroTo opacity-45"></div>
+
+
           <div
             class="absolute h-full sm:top-1/2 sm:left-1/2 transform sm:-translate-x-1/2 sm:-translate-y-1/2 text-center text-white/80">
             <div class="flex items-center justify-center text-center h-full gap-4">
@@ -416,34 +422,7 @@
               src="https://lushchat.ai/sample_profile.png?2024" />
           </div>
         </div>
-        <div class="flex flex-col gap-6 max-w-3xl mx-auto mt-10 px-4 md:px-0 text-white/80 mb-8">
-          <h2 class="text-4xl font-bold text-center mb-4 pt-8">
-            A Companion by Your Side
-          </h2>
-          <div class="flex flex-col-reverse md:flex-row items-center sm:items-start gap-12">
-            <div class="flex-1 text-center">
-              <p class="mb-4 text-md tracking-wide leading-7">
-                No invite? No worries. You&#x27;ve got Jenny by your side;
-                Jenny is a Korean-American university student who moved to the
-                U.S. to pursue her studies. In her spare time, she loves to
-                read novels and dance. While she can be shy at first, Jenny is
-                a true sweetheart who warms up quickly to new friends and can
-                even get a little bit spicy with potential romantic partners.
-                Whether you&#x27;re feeling down or just want someone to talk
-                to, Jenny is the perfect companion to confide in.
-              </p>
-              <a href="../www.lushchat.ai/jenny.html"><button
-                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
-                  Meet Jenny
-                </button></a>
-            </div>
-            <div class="flex-1">
-              <img alt="Jenny" loading="lazy" width="280" height="280" decoding="async" data-nimg="1"
-                class="shadow-md object-contain w-auto h-auto rounded-sm my-4" style="color: transparent"
-                src="https://www.lushchat.ai/_next/image?url=%2Fjenny1.jpg&w=640&q=75" />
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <div class="w-full mx-auto p-4">
