@@ -421,7 +421,12 @@
 }
 /* featuresBody start  */
 .featuresBody {
-  padding: 60px 0;
+  background-color: rgba(22, 22, 19, 0.04);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border-radius: 1.63em;
+  padding: 5.8em 4em;
+  margin: 40px 0;
 }
 .featuresBody h2 {
   max-width: 20em;
