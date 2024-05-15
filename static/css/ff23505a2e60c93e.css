@@ -1236,7 +1236,6 @@ body {
   background-color: rgba(22, 22, 19, 0.04);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  border-radius: 1.63em;
 }
 .h-100vh {
   min-height: 100vh;
